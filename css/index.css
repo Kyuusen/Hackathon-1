@@ -64,10 +64,11 @@ li a {
 
 #catch-phrase {
     color: white;
-    font-family: roboto;
+    font-family: quicksand;
     font-size: 60px;
     display: flex;
     margin-top: 200px;
+    margin-left: 10px;
 }
 
 img {
@@ -76,4 +77,78 @@ img {
     margin-right: 5px;
     border-radius: 5px;
     
+}
+
+/* footer {
+    height: 50px;
+    background-color: #D39D55;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+} */
+
+/* .footer-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #D39D55;
+    width: 100%;
+    
+} */
+
+/* footer li {
+    list-style: none;
+    display: inline;
+    color: black;
+}
+
+.fa-brands {
+    color: black;
+} */
+
+#body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: quicksand;
+}
+
+#contact-details {
+    color: white;
+    border: 1px solid transparent;
+    
+   
+    /* width: 300px; */
+    align-items: center;
+}
+
+#hours-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    /* width: 200px; */
+}
+
+#contact-details li {
+    font-size: 20px;
+    display: inline-block;
+}
+
+span {
+    color: #D39D55;
+}
+
+/* .sm-icons {
+    background-color: white;
+} */
+
+/* To ask whether this is correct */
+.hidden-text {
+    color: transparent;
+}
+
+#contact-details-container {
+    display: block;
+    margin-right: 50px;
 }
