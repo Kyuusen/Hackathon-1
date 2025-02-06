@@ -65,14 +65,40 @@ li a {
     color: white;
 }
 
+#logo-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
 #catch-phrase {
     color: white;
     font-family: quicksand;
     font-size: 60px;
-    display: flex;
+    display: block;
     margin-top: 200px;
     margin-left: 10px;
 }
+
+#hp-cta-btn {
+    background-color: #D39D55;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+}
+
+#hp-cta-btn:hover {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 7px;
+    color: #D39D55;
+    background-color: transparent;
+    border: 1px solid #D39D55;
+}
+
 
 img {
     background-color: #D39D55;
