@@ -25,7 +25,17 @@ li a {
     color: white;
     border: 1px solid #D39D55;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 3px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid #D39D55; */
+    background-color: #D39D55;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
 }
 
 #nav-container {
@@ -93,7 +103,7 @@ h1, h2 {
 
 #our-story-text {
     font-family: quicksand;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 
 }
