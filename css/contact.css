@@ -80,27 +80,36 @@ li a:hover {
 }
 
 #contact-container {
-    display: flex;
-    justify-content:center;
-    
     margin-top: 50px;
     /* border:1px solid #D39D55; */
     /* box-shadow: 5px rgba(252, 252, 252, 0.8); */
-    height: 700px;
-    width: 1200px;
+    /* height: 700px;
+    width: 1200px; */
     /* border: 1px solid #D39D55; */
     border-radius: 10px;
    
 }
 
-
-form {
-    /* text-align: center; */
+#contact-details-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    border-radius: 5px;
+    
 
 }
 
-label, input {
+form {
     display: block;
+    justify-content: center;
+
+}
+
+label, input, textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label {
@@ -109,6 +118,11 @@ label {
     font-size: 20px;
     color: white;
     font-weight: 500;
+    display: block;
+    /* justify-content: center; */
+    
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 input, textarea {
@@ -118,13 +132,12 @@ input, textarea {
     padding: 5px;
     border: none;
     border-radius: 5px;
-    
-    
+    justify-content: center;
+    display: block;
+ 
 }
 
 .contact-details {
-    width: 50%;
-    /* margin-left: 15px; */
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
@@ -133,14 +146,12 @@ input, textarea {
 #contact-form {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 700px;
-    background-color: rgba(0,0,0,0.7);
-    /* box-shadow: 5px 5px rgba(252, 252, 252, 0.8); */
-    padding: 20px;
-    /* border-radius: 7px; */
+    /* padding: 20px; */
 }
 
-#submit-btn {
+.button1 {
     width: 250px;
     /* text-align: center; */
     height: 40px;
@@ -149,6 +160,9 @@ input, textarea {
     color: black;
     font-size: 20px;
     font-weight:500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     
 }
 
