@@ -1,19 +1,131 @@
 
+body {
+    background-image: url(../images/gray-textured-wall_53876-88964.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-y: 5%; */
+    /* background-position: fixed; */
+    /* height: 100%; */
+}
 
+ul {
+    list-style-type: none;
+}
 
-.row {
+li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    font-family: quicksand;
+    color: white;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #D39D55;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid #D39D55; */
+    background-color: #D39D55;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+}
+
+#nav-container {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    justify-content: space-between;
+}
+
+#logo {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+#logo {
+    font-size: 40px;
+    padding: 10px;
+    font-family: meddon;
+    color: white;
+}
+
+#logo-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.logo-img {
+    background-color: #D39D55;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    font-family: quicksand;
+    font-size: 50px;
+    color: #D39D55;
+    text-transform: uppercase;
+    border-bottom: 2px solid #D39D55;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 100%;
   }
-  
-  /* Create two equal columns that sits next to each other */
+
+  .footer-cta {
+    color: black;
+    font-family: quicksand;
+    font-size: 30px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .column-container {
+    /* width: 200px;
+    height: 300px;  */
+    /* border: 1px solid #c3c3c3; */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img {
+    width: 500px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    flex-direction: row;
+  }
+
   .column {
-    flex: 25%;
-    padding: 0 4px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
+
+ 
