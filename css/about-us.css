@@ -118,9 +118,13 @@ h1, h2 {
     font-size: 25px;
     color: white;
     padding-left: 15px;
-  
-   
+}
 
+#our-story-text a {
+  text-decoration: none;
+  color: #D39D55;
+  font-weight: 500;
+  border-bottom: 1px solid #D39D55;
 }
 
 #section-container {
