@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    /* background-image: url(../images/3003.jpg); */
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    background-position-x: -3%;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    font-family: quicksand;
+    color: white;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #D39D55;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid #D39D55; */
+    background-color: #D39D55;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    justify-content: space-between;
+}
+
+#logo {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+#logo {
+    font-size: 40px;
+    padding: 10px;
+    font-family: meddon;
+    color: white;
+}
+
+#logo-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#logo-img {
+    background-color: #D39D55;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    
+}
+
+#contact-container {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+form {
+    /* text-align: center; */
+
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    padding: 2px;
+    font-family: quicksand;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+.contact-details {
+    /* width: 50%; */
+    /* margin-left: 15px; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#contact-form {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 700px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 5px 5px rgba(252, 252, 252, 0.8);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+#submit-btn {
+    width: 250px;
+    /* text-align: center; */
+    height: 40px;
+    font-family: quicksand;
+    background-color: #D39D55;
+    color: black;
+    font-size: 20px;
+    font-weight:500;
+    
+}
+
+#form-img {
+    background-color: none;
+    height: 700px;
+    width: 900px;
+}
