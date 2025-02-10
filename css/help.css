@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/landing-page-1.jpg);
+    background-image: url(../images/98333.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position-y: 5%; */
@@ -94,7 +94,7 @@ h1, h2 {
     border-bottom: 2px solid #D39D55;
 }
 
-#section-container {
+.section-container {
     /* margin: 5% 5%; */
    margin: 0 25px;
     /*padding-top: 40px; */   
@@ -236,5 +236,10 @@ h1, h2 {
 
   
   #healing-process {
+    margin-top: 75px;
+
+  }
+
+  #healing-process-container h2 {
     margin-top: 75px;
   }
