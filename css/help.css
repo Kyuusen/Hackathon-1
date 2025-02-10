@@ -198,6 +198,22 @@ h1, h2 {
     white-space: nowrap;
     padding: 10px;
   }
+
+
+  div#scroll-container::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  div#scroll-container::-webkit-scrollbar-track {
+    background: rgba(251, 251, 251, 0.3);
+    border-radius: 5px;
+  }
+  
+
+  div#scroll-container::-webkit-scrollbar-thumb {
+    background-color: #D39D55;
+    border-radius: 5px;
+  }
   
   div#scroll-container img {
     padding: 10px;
