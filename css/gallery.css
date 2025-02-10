@@ -175,3 +175,16 @@ section {
   }
 
   
+  i {
+    color: black;
+    font-size: 25px;
+
+  }
+
+  #footer-icon li {
+    padding: 0px;
+  }
+
+  #footer-icon li a:hover {
+    box-shadow: none;
+  }
